@@ -30,7 +30,7 @@ function showItem() {
     html += `
       <div class="todo">
           <input class="todo_item" type="text" value="${data}" readonly/>
-          <button class="todo_btn edit_btn" type="button"><i class="fa fa-pen"></i></button>;
+          <button class="todo_btn edit_btn" type="button"><i class="fa fa-pen"></i></button>
           <button class="todo_btn close_btn" type="button"><i class="fa fa-times"></i></button>
       </div>
     `;
@@ -40,7 +40,7 @@ function showItem() {
 showItem();
 
 function deleteItem(index) {
-  let localItems = JSON.parse(localStorage.getItem('localItem'));
+  JSON.parse(localStorage.getItem('localItem'));
   taskList.splice(index, 1);
   localStorage.setItem('localItem', JSON.stringify(taskList));
   showItem();
