@@ -55,21 +55,3 @@ document.querySelectorAll('.close_btn').forEach((btn, index) => {
     deleteItem(index);
   });
 });
-
-// edite functionality need a bit of configurations to change the local storage
-// document.querySelectorAll('.edit_btn').forEach((btn, index) => {
-//   btn.addEventListener('click', (e) => {
-//     let input = btn.previousElementSibling;
-//     if (input.hasAttribute('readonly')) {
-//       input.removeAttribute('readonly');
-//       btn.innerHTML = '<i class="fa fa-save"></i>';
-//     } else {
-//       input.setAttribute('readonly', '');
-//       btn.innerHTML = '<i class="fa fa-pen"></i>';
-//     }
-//   });
-// });
-
-// <button class="todo_btn edit_btn" type="button">
-//  <i class="fa fa-pen"></i>
-// </button>;
