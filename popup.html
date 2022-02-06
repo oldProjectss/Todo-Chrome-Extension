@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <title>ToDo list</title>
   </head>
   <body>
@@ -15,6 +16,24 @@
         <legend>Add:</legend>
         <input class="add" type="text" name="list" placeholder="Add task!" />
         <button class="add_btn" type="button">Add</button>
+      </fieldset>
+      <fieldset class="todo_list">
+        <legend>ToDo list:</legend>
+        <div class="todo">
+          <input class="todo_item" type="text" value="test..." />
+          <button class="todo_btn" type="button"><i class="fa fa-pen"></i></button>
+          <button class="todo_btn" type="button"><i class="fa fa-times"></i></button>
+        </div>
+        <div class="todo">
+          <input class="todo_item" type="text" value="test..." readonly />
+          <button class="todo_btn" type="button"><i class="fa fa-pen"></i></button>
+          <button class="todo_btn" type="button"><i class="fa fa-times"></i></button>
+        </div>
+        <div class="todo">
+          <input class="todo_item" type="text" value="test..." readonly />
+          <button class="todo_btn" type="button"><i class="fa fa-pen"></i></button>
+          <button class="todo_btn" type="button"><i class="fa fa-times"></i></button>
+        </div>
       </fieldset>
     </div>
   </body>
