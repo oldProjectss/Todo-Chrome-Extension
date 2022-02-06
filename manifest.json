@@ -4,17 +4,22 @@
     "description": "This todo extention uses local storage to store your data.",
     "version": "1.0",
     "icons": {
-        "16": "logo(48×48px).png",
-        "48": "logo(48×48px).png",
-        "128": "logo(128×128px).png"
+        "16": "img/logo(48×48px).png",
+        "48": "img/logo(48×48px).png",
+        "128": "img/logo(128×128px).png"
     },
-    "page_action": {
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "css": ["style/page.css"]
+    }],
+    "browser_action": {
         "default_icon": {
-        "16": "logo(48×48px).png",
-        "48": "logo(48×48px).png",
-        "128": "logo(128×128px).png"
-        }
-    },
-"content_scripts": [{}]
+        "16": "img/logo(48×48px).png",
+        "48": "img/logo(48×48px).png",
+        "128": "img/logo(128×128px).png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "ToDO List"
+    }
 
 }
