@@ -2,10 +2,7 @@
 
 > This is a to-do list chrome extension built using HTML for the skeleton and CSS, FlexBox for the styling and positioning of the elements on the page. JavaScript to build the functionalities of the extension. this extension uses local storage to store the data.
 
-
 ![screenshot](img/screenshot1.png)
-![screenshot](img/screenshot2.png)
-![screenshot](img/screenshot3.png)
 
 ## Built With
 
