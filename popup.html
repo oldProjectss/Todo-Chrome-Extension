@@ -9,19 +9,20 @@
     <title>ToDo list</title>
   </head>
   <body>
-    <div class="body">
-      <h1 class="header">ToDo</h1>
+    <h1 class="todo_heading">ToDo</h1>
       <p class="notice">This Extension uses local storage to store your data. if you clear the cache and local storage, all your data will be gone.</p>
-      <fieldset class="fieldset">
-        <legend>Add:</legend>
-        <input class="add" type="text" name="list" placeholder="Add task!" />
-        <button class="add_btn" type="button">Add</button>
-      </fieldset>
-      <fieldset class="todo_list">
-        <legend>ToDo list:</legend>
-        <div class="todos"></div>
-      </fieldset>
-    </div>
+    <section class="todo">
+      
+      <div class="todo_body">
+        <div class="input_section">
+          <input class="todo_input" type="text" placeholder="Add to your list..." />
+          <i class="fas fa-level-down enter"></i>
+        </div>
+        <br />
+        <hr />
+        <div class="todo_list"></div>
+        <button class="clear_btn" type="button">Clear all completed</button>
+      </div>
     <script src="content.js"></script>
   </body>
 </html>
