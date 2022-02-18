@@ -140,6 +140,7 @@ body {
 .todo_list::-webkit-scrollbar-thumb:active {
   background-color: hsl(0, 10%, 60%);
 }
+
 hr {
   width: 100%;
   color: grey;
