@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "ToDo",
     "description": "This todo extention uses local storage to store your data.",
-    "version": "1.0",
+    "version": "1.2",
     "icons": {
         "16": "img/logo(48×48px).png",
         "48": "img/logo(48×48px).png",
