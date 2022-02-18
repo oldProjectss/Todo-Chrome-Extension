@@ -11,17 +11,22 @@ body {
   align-items: center;
   justify-content: space-around;
   width: 400px;
-  max-height: 300px;
+  max-height: 500px;
+}
+
+.todo_heading {
+  margin-top: 10px;
 }
 
 .notice {
-  width: 400px;
+  width: 350px;
   margin-bottom: 20px;
+  margin-top: 10px;
   font-size: 13px;
   text-align: center;
 }
 
-.todo_heading {
+.heading {
   margin: 20px;
   color: violet;
 }
@@ -66,6 +71,10 @@ body {
   margin-left: 5px;
 }
 
+.edit {
+  color: rgb(85, 85, 255);
+}
+
 .remove {
   color: brown;
 }
@@ -105,10 +114,32 @@ body {
 }
 
 .todo_list {
-  max-height: 300px;
-  overflow-x: scroll;
+  max-height: 200px;
+  overflow-y: scroll;
+  width: 100%;
 }
 
+.todo_list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.todo_list::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.todo_list::-webkit-scrollbar-thumb {
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #3d3d3d;
+}
+
+.todo_list::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(0, 10%, 70%);
+}
+
+.todo_list::-webkit-scrollbar-thumb:active {
+  background-color: hsl(0, 10%, 60%);
+}
 hr {
   width: 100%;
   color: grey;

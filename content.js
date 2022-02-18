@@ -77,7 +77,7 @@ function displayTasks() {
     const editButton = document.createElement('button');
     editButton.classList.add('edit');
     const editBtn = document.createElement('i');
-    editBtn.classList.add('fas', 'fa-ellipsis-vertical');
+    editBtn.classList.add('fas', 'fa-pen');
     const removeButton = document.createElement('button');
     removeButton.classList.add('remove');
     const removeBtn = document.createElement('i');
